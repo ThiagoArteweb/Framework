@@ -7,6 +7,6 @@ Para usar isso, basta realizar um teste.
 
 ** Teste **
 
-...
+'''
 <img src='teste.php'>
-...
+'''
