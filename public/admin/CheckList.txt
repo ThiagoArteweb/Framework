@@ -1,0 +1,37 @@
+ADMINISTRATIVO
+01 - Criar Gmail 
+02 - Comprar domínio e hospedagem 
+03 - Mudar DNS do domínio 
+04 - Arquivar dados da hospedagem no arquivo "hospedagem.txt" 
+05 - Criar email corporativo
+06 - Adicionar cliente no site da Webdesign em Foco
+07 - Doar 50,00
+
+
+
+
+SEO
+01 - Verificar programação no W3C 
+02 - Enfatizar title, description, keywords, alt, h1,strong, p, links 
+03 - Criar Google Negócios 
+04 - Criar Webmaster Tools(sitemap , indexar) 
+05 - Salvar as páginas com nomes longos "Inscricao-da-corrida-dos-bombeiros-de-divinopolis" 
+06 - Verificar tamanho das imagens 
+07 - Comprimir imagens (https://tinypng.com/) 
+08 - CSS e Javascript minified 
+09 - SpeedInsight 
+10 - Sitemap 
+11 - Forçar cache
+12 - Robots.txt 
+13 - Url amigaveis
+14 - Redes sociais
+15 - Microdatas
+
+
+
+SEO (AVANÇADO)
+01 - Criar Google +, Facebook, Twitter, Youtube e Linkedin
+02 - Comentários em blogs de terceiros
+03 - Comentários em fóruns de terceiros
+04 - Newsletter
+05 - Nome do domínio
