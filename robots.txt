@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /app/Controller/
+Disallow: /app/Model/
+Disallow: /painel/
+Disallow: /config/
+Disallow: /libs/
+Disallow: /public/admin/
+Disallow: /public/design/
+Disallow: robots.txt
