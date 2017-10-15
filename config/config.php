@@ -1,6 +1,6 @@
 <?php
 #Defini diretorio raiz
-$pastaInterna="";
+$pastaInterna="Framework/";
 define('DIRPAGINAS',"http://{$_SERVER['HTTP_HOST']}/{$pastaInterna}");
 if (substr($_SERVER['DOCUMENT_ROOT'],-1)=='/'){ define("DIRREQUIRES","{$_SERVER['DOCUMENT_ROOT']}{$pastaInterna}"); }else{ define("DIRREQUIRES","{$_SERVER['DOCUMENT_ROOT']}/{$pastaInterna}"); }
 
