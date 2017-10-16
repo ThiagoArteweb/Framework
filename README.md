@@ -1,5 +1,11 @@
 # Framework
 Framework desenvolvido por Thiago Arteweb.
 
-## Base
-A pasta base traz a organização básica das pastas do framework conforme modelo MVC.
+## Diretórios
+.
+├── 01 - Base                   # Base do framework
+├── 02                          # Documentation files (alternatively `doc`)
+├── 03                          # Source files (alternatively `lib` or `app`)
+├── 04                          # Automated tests (alternatively `spec` or `tests`)
+├── 05                          # Tools and utilities
+└── 06 - Tools                  # Ferramentas auxiliares
