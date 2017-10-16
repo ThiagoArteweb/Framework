@@ -1,14 +1,15 @@
 <?php
 namespace App;
 
-use App\Routes;
+use Src\Classes\ClassRoutes;
 
-class Init extends Routes
+
+class Init extends ClassRoutes
 {
 
+
+
     #Atributos
-    private $urlArray;
-    private $controller;
     private $method;
     private $param = [];
     private $obj;
@@ -16,26 +17,6 @@ class Init extends Routes
 
 
     #Métodos de Encapsulamento
-    public function getUrlArray()
-    {
-        return $this->urlArray;
-    }
-
-    public function setUrlArray($urlArray)
-    {
-        $this->urlArray = $urlArray;
-    }
-
-    protected function getController()
-    {
-        return $this->controller;
-    }
-
-    public function setController($controller)
-    {
-        $this->controller = $controller;
-    }
-
     protected function getMethod()
     {
         return $this->method;
@@ -64,22 +45,7 @@ class Init extends Routes
     {
         require_once("../config/config.php");
 
-        if (isset($_GET['url'])) {
-            self::parseUrl($_GET['url']);
-        }
-
         self::addController();
-
-
-    }
-
-
-
-
-    #Divide a url em um array
-    public function parseUrl($url)
-    {
-        $this->setUrlArray(explode("/", rtrim($url), FILTER_SANITIZE_URL));
     }
 
 
@@ -89,19 +55,12 @@ class Init extends Routes
     #Adiciona o controller
     private function addController()
     {
-        $rotaController=$this->getRota($this->getUrlArray()[0]);
+        $rotaController=$this->getRota();
 
-        if (file_exists(DIRREQUIRES . "app/controller/{$rotaController}.php")) {
-            $this->setController("{$rotaController}");
-        } else {
-            $this->setController('ControllerHome');
-        }
-
-        $controller = $this->getController();
-        $nameS = "App\\Controller\\{$controller}";
+        $nameS = "App\\Controller\\{$rotaController}";
         $this->obj = new $nameS;
 
-        if (isset($this->getUrlArray()[1])) {
+        if (isset($this->parseUrl()[1])) {
             self::addMethod();
         }
     }
@@ -113,12 +72,10 @@ class Init extends Routes
     #Adiciona o método
     private function addMethod()
     {
-        if (method_exists($this->obj, $this->getUrlArray()[1])) {
-            $this->setMethod("{$this->getUrlArray()[1]}");
+        if (method_exists($this->obj, $this->parseUrl()[1])) {
+            $this->setMethod("{$this->parseUrl()[1]}");
             self::addParam();
             call_user_func_array([$this->obj, $this->getMethod()], $this->getParam());
-        } else {
-            $this->setMethod("");
         }
     }
 
@@ -128,16 +85,14 @@ class Init extends Routes
     #Adiciona parametros
     private function addParam()
     {
-        $contArray = count($this->getUrlArray());
+        $contArray = count($this->parseUrl());
 
         if ($contArray > 2) {
-            foreach ($this->getUrlArray() as $key => $value) {
+            foreach ($this->parseUrl() as $key => $value) {
                 if ($key > 1) {
                     $this->setParam($this->param += [$key => $value]);
                 }
             }
-        } else {
-            $this->setParam([]);
         }
     }
 

@@ -1,7 +1,7 @@
 <?php
-namespace App;
+namespace Src\Classes;
 
-class Render
+class ClassRender
 {
 
     #Atributos
@@ -14,7 +14,7 @@ class Render
 
 
     #Métodos de Encapsulamento
-    public function getDir()
+    private function getDir()
     {
         return $this->dir;
     }
@@ -24,7 +24,7 @@ class Render
         $this->dir = $dir;
     }
 
-    public function getTitle()
+    private function getTitle()
     {
         return $this->title;
     }
@@ -34,7 +34,7 @@ class Render
         $this->title = $title;
     }
 
-    public function getDescription()
+    private function getDescription()
     {
         return $this->description;
     }
@@ -44,25 +44,36 @@ class Render
         $this->description = $description;
     }
 
-    public function getKeywords()
+    private function getKeywords()
     {
         return $this->keywords;
     }
 
-    public function setKeywords($keywords) {
+    public function setKeywords($keywords)
+    {
         $this->keywords = $keywords;
     }
 
+
+
+    #Exibe o título
     public function title()
     {
         echo $this->getTitle();
     }
 
+
+
+    #Exibe a description
     public function description()
     {
         echo $this->getDescription();
     }
 
+
+
+
+    #Exibe as keywords
     public function keywords()
     {
         echo $this->getKeywords();
@@ -77,7 +88,8 @@ class Render
 
 
     #Renderiza o layout padrão
-    public function renderLayout($layout=true){
+    public function renderLayout($layout=true)
+    {
         if($layout==true)
         {
             include_once(DIRREQUIRES."app/View/layout.php");
@@ -135,15 +147,5 @@ class Render
         if(file_exists(DIRREQUIRES."app/View/{$this->getDir()}footer.php")){
             include(DIRREQUIRES."app/View/{$this->getDir()}footer.php");
         }
-    }
-
-
-
-
-
-
-    #Redirecionamento
-    public function redirectUrl($url){
-        echo "<script>window.location.href='".DIRPAGINAS."{$url}';</script>";
     }
 }

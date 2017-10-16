@@ -1,24 +1,19 @@
 <?php
 namespace App\Controller;
 
-use App\Render;
+use Src\Classes\ClassRender;
 
-class ControllerHome
+class ControllerHome extends ClassRender
 {
 
-    #Atributos
-    private $render;
-
-
-
     #Método Construtor
-    public function __construct() {
-        $this->render=new Render();
-        $this->render->setTitle('Título');
-        $this->render->setDescription('Description');
-        $this->render->setKeywords('Keywords');
-        $this->render->setDir('home/');
-        $this->render->renderLayout();
-    }
+    public function __construct()
+    {
+        $this->setTitle('Título');
+        $this->setDescription('Description');
+        $this->setKeywords('Keywords');
+        $this->setDir('home/');
+        $this->renderLayout();
 
+    }
 }
