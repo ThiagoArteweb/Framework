@@ -1,1 +1,0 @@
-<img src="<?php echo DIRIMAGES."design-inicial.png"; ?>" alt="Design inicial" title="design inicial">
