@@ -80,9 +80,9 @@ class Render
     public function renderLayout($layout=true){
         if($layout==true)
         {
-            include_once(DIRREQUIRES."app/view/layout.php");
+            include_once(DIRREQUIRES."app/View/layout.php");
         } else {
-            include_once(DIRREQUIRES."app/view/layoutClean.php");
+            include_once(DIRREQUIRES."app/View/layoutClean.php");
         }
     }
 
@@ -93,8 +93,8 @@ class Render
     #Adiciona o head (se existir)
     public function addHead()
     {
-        if(file_exists(DIRREQUIRES."app/view/{$this->getDir()}head.php")){
-            include(DIRREQUIRES."app/view/{$this->getDir()}head.php");
+        if(file_exists(DIRREQUIRES."app/View/{$this->getDir()}head.php")){
+            include(DIRREQUIRES."app/View/{$this->getDir()}head.php");
         }
     }
 
@@ -105,8 +105,8 @@ class Render
     #Adiciona o header (se existir)
     public function addHeader()
     {
-        if(file_exists(DIRREQUIRES."app/view/{$this->getDir()}header.php")){
-            include(DIRREQUIRES."app/view/{$this->getDir()}header.php");
+        if(file_exists(DIRREQUIRES."app/View/{$this->getDir()}header.php")){
+            include(DIRREQUIRES."app/View/{$this->getDir()}header.php");
         }
     }
 
@@ -119,8 +119,8 @@ class Render
     #Adiciona o main (se existir)
     public function addMain()
     {
-        if(file_exists(DIRREQUIRES."app/view/{$this->getDir()}main.php")){
-            include(DIRREQUIRES."app/view/{$this->getDir()}main.php");
+        if(file_exists(DIRREQUIRES."app/View/{$this->getDir()}main.php")){
+            include(DIRREQUIRES."app/View/{$this->getDir()}main.php");
         }
     }
 
@@ -132,8 +132,8 @@ class Render
     #Adiciona o footer (se existir)
     public function addFooter()
     {
-        if(file_exists(DIRREQUIRES."app/view/{$this->getDir()}footer.php")){
-            include(DIRREQUIRES."app/view/{$this->getDir()}footer.php");
+        if(file_exists(DIRREQUIRES."app/View/{$this->getDir()}footer.php")){
+            include(DIRREQUIRES."app/View/{$this->getDir()}footer.php");
         }
     }
 

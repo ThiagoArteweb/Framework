@@ -62,6 +62,8 @@ class Init extends Routes
     #Método construtor
     public function __construct()
     {
+        require_once("../config/config.php");
+
         if (isset($_GET['url'])) {
             self::parseUrl($_GET['url']);
         }
@@ -92,7 +94,7 @@ class Init extends Routes
         if (file_exists(DIRREQUIRES . "app/controller/{$rotaController}.php")) {
             $this->setController("{$rotaController}");
         } else {
-            $this->setController('home');
+            $this->setController('ControllerHome');
         }
 
         $controller = $this->getController();
