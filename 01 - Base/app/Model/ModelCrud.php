@@ -5,17 +5,17 @@ class ModelCrud extends ModelConexao{
 
 
 	#Atributos
-	private $Crud;
+	private static $crud;
 
 
 
 
 	#Métodos
 	#Preparando e Executando
-	public function prepareExecute($prep,$exec)
+	public static function prepareExecute($prep,$exec)
 	{
-		$this->Crud=$this->conectar()->prepare($prep);
-		$this->Crud->execute($exec);
+		self::$crud=parent::conectar()->prepare($prep);
+		self::$crud->execute($exec);
 	}
 
 
@@ -24,10 +24,10 @@ class ModelCrud extends ModelConexao{
 
 
 	#Inserindo
-	public function insert($table,$cond,$exec)
+	public static function insert($table,$cond,$exec)
 	{
-		$this->prepareExecute("INSERT INTO ".$table." VALUES (".$cond.")",$exec);
-		return $this->Crud;
+		self::prepareExecute("INSERT INTO ".$table." VALUES (".$cond.")",$exec);
+		return self::$crud;
 	}
 
 
@@ -36,10 +36,10 @@ class ModelCrud extends ModelConexao{
 
 
 	#Selecionando
-	public function select($Fields,$table,$cond,$exec)
+	public static function select($Fields,$table,$cond,$exec)
 	{
-		$this->prepareExecute("SELECT ".$Fields." FROM ".$table." ".$cond,$exec);
-		return $this->Crud;
+		self::prepareExecute("SELECT ".$Fields." FROM ".$table." ".$cond,$exec);
+		return self::$crud;
 	}
 
 
@@ -47,10 +47,10 @@ class ModelCrud extends ModelConexao{
 
 
 	#Atualizando
-	public function update($table,$cond,$where,$exec)
+	public static function update($table,$cond,$where,$exec)
 	{
-		$this->prepareExecute("UPDATE ".$table." SET ".$cond." WHERE ".$where,$exec);
-		return $this->Crud;
+		self::prepareExecute("UPDATE ".$table." SET ".$cond." WHERE ".$where,$exec);
+		return self::$crud;
 	}
 
 
@@ -58,10 +58,10 @@ class ModelCrud extends ModelConexao{
 
 
 	#Deletando
-	public function delete ($table,$cond,$exec)
+	public static function delete ($table,$cond,$exec)
 	{
-		$this->prepareExecute("DELETE FROM ".$table." WHERE ".$cond."",$exec);
-		return $this->Crud;
+		self::prepareExecute("DELETE FROM ".$table." WHERE ".$cond."",$exec);
+		return self::$crud;
 	}
 }
 

@@ -6,7 +6,7 @@ use \PDOException;
 
 abstract class ModelConexao{
 
-    public function conectar()
+    public static function conectar()
     {
         try{
             $con=new PDO("mysql:host=".HOST.";dbname=".DB."","".USER."","".PASS."");
