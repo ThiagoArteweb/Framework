@@ -1,0 +1,145 @@
+
+
+
+/*Extra-Small Devices*/
+@keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@-webkit-keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 0; opacity: 1; } }
+@-webkit-keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 0; opacity: 1; } }
+@keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 20%; opacity: 1;} }
+@-webkit-keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 20%; opacity: 1;} }
+.slides{position: relative; float: left; width: 100%; -webkit-animation-name: SlideAnimacaoFade; -webkit-animation-duration: 1.5s; animation-name: SlideAnimacaoFade; animation-duration: 1.5s;}
+    .slides img{width: 100%;}
+    .slidesTitulo{position: absolute; width: 100%; top: 20px; left: 0; font-weight: 600; text-align: center; font-size: 36px; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesTexto{position: absolute; width: 100%; top: 80px; left: 0; text-align: center;  color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesBotao{position: absolute; width: 60%; top:150px; left:20%; padding: 20px; font-weight: bold; border-radius: 10px; text-align: center; background: #52A8B1; color: #FFF; cursor: pointer; -webkit-animation-name: SlideAnimacaoBotao; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoBotao; animation-duration: 3s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small Devices*/
+@keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@-webkit-keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 0; opacity: 1; } }
+@-webkit-keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 0; opacity: 1; } }
+@keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 37%; opacity: 1;} }
+@-webkit-keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 37%; opacity: 1;} }
+    .slides{position: relative; float: left; width: 100%; -webkit-animation-name: SlideAnimacaoFade; -webkit-animation-duration: 1.5s; animation-name: SlideAnimacaoFade; animation-duration: 1.5s;}
+    .slides img{width: 100%;}
+    .slidesTitulo{position: absolute; width: 100%; top: 70px; left: 0; font-weight: 600; text-align: center; font-size: 44px; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesTexto{position: absolute; width: 100%; top: 130px; left: 0; text-align: center; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesBotao{position: absolute; width: 26%; top:190px; left:37%; padding: 20px; font-weight: bold; border-radius: 10px; text-align: center; background: #52A8B1; color: #FFF; cursor: pointer; -webkit-animation-name: SlideAnimacaoBotao; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoBotao; animation-duration: 3s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+@keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@-webkit-keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 30px; opacity: 1; } }
+@-webkit-keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 30px; opacity: 1; } }
+@keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 230px; opacity: 1;} }
+@-webkit-keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 230px; opacity: 1;} }
+.slides{float: left; width: 100%; -webkit-animation-name: SlideAnimacaoFade; -webkit-animation-duration: 1.5s; animation-name: SlideAnimacaoFade; animation-duration: 1.5s;}
+    .slides img{width: 100%;}
+    .slidesTitulo{position: absolute; width: 60%; top: 220px; left: 30px; font-weight: 600; text-align: center; font-size: 44px; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesTexto{position: absolute; width: 60%; top: 280px; left: 30px; text-align: center; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesBotao{position: absolute; width: 18%; top:330px; left:230px; padding: 20px; font-weight: bold; border-radius: 10px; text-align: center; background: #52A8B1; color: #FFF; cursor: pointer; -webkit-animation-name: SlideAnimacaoBotao; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoBotao; animation-duration: 3s;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+@keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@-webkit-keyframes SlideAnimacaoFade { from { opacity: .4} to { opacity: 1 } }
+@keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 30px; opacity: 1; } }
+@-webkit-keyframes SlideAnimacaoTexto { 0% {left: -100px; opacity: 0;} 100% { left: 30px; opacity: 1; } }
+@keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 270px; opacity: 1;} }
+@-webkit-keyframes SlideAnimacaoBotao{ 0% {left: -100px; opacity: 0;} 100% {left: 270px; opacity: 1;} }
+.slides{float: left; width: 100%; -webkit-animation-name: SlideAnimacaoFade; -webkit-animation-duration: 1.5s; animation-name: SlideAnimacaoFade; animation-duration: 1.5s;}
+    .slides img{width: 100%;}
+    .slidesTitulo{position: absolute; width: 50%; top: 230px; left: 30px; font-weight: 600; text-align: center; font-size: 44px; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesTexto{position: absolute; width: 50%; top: 290px; left: 30px; text-align: center; color: #FFF; -webkit-animation-name: SlideAnimacaoTexto; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoTexto; animation-duration: 3s;}
+    .slidesBotao{position: absolute; width: 14%; top:340px; left:270px; padding: 20px; font-weight: bold; border-radius: 10px; text-align: center; background: #52A8B1; color: #FFF; cursor: pointer; -webkit-animation-name: SlideAnimacaoBotao; -webkit-animation-duration: 3s; animation-name: SlideAnimacaoBotao; animation-duration: 3s;}
+
+
+
+
+
+
+
+
+
+
+

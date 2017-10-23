@@ -1,0 +1,75 @@
+/*Extra-Small Devices*/
+.Icons{float:left; width:100%; background: #00A85A; padding: 0 60px;}
+    .Icons .slick-dots{display:none; visibility: hidden;}
+    .IconsImages{float:left; width:100%; text-align: center;}
+    .IconsImages a{ display:block; width: 100%; max-height: 100%;}
+    .IconsImages img{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small Devices*/
+.Icons{float:left; width:100%; background: #00A85A; padding: 0 60px;}
+    .Icons .slick-dots{display:none; visibility: hidden;}
+    .IconsImages{float:left; width:33.33333333333333%; text-align: center;}
+    .IconsImages a{ display:block; width: 100%; max-height: 100%;}
+    .IconsImages img{width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+.Icons{float:left; width:100%; background: #00A85A; padding: 0 60px;}
+    .Icons .slick-dots{display:none; visibility: hidden;}
+    .IconsImages{float:left; width:25%; text-align: center;}
+    .IconsImages a{ display:block; width: 100%; max-height: 100%;}
+    .IconsImages img{width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+    .IconsImages img:hover{-webkit-filter: grayscale(0); filter: grayscale(0);}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+.Icons{float:left; width:100%; background: #00A85A; padding: 0 60px;}
+    .Icons .slick-dots{display:none; visibility: hidden;}
+    .IconsImages{float:left; width:18%; text-align: center;}
+    .IconsImages a{display:block; width: 100%; max-height: 100%;}
+    .IconsImages img{width: 100%; -webkit-filter: grayscale(100%); filter: grayscale(100%);}
+    .IconsImages img:hover{-webkit-filter: grayscale(0); filter: grayscale(0);}
+
+
+
+
+
+
+

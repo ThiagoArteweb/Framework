@@ -1,0 +1,119 @@
+/*Extra-Small Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 10px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{float:left; width: 100%; display:none; font-weight: bold;}
+    nav li {float: left; width: 100%; border-bottom: 1px solid white; background: #809C43;}
+    nav a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+
+.TopFaixa{float:left; width: 100%; height: 80px; background: #2A4F39;}
+
+.Logomarca{position: absolute; z-index:5; top: 17px; left: 3px;}
+    .Logomarca img{max-height: 50px;}
+
+.BotaoMobile{position: absolute; width: 30%; top: 15px; right: 0; text-align: center;}
+    .BotaoMobile img{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 10px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{float:left; width: 100%; display:none; font-weight: bold;}
+    nav li {float: left; width: 100%; border-bottom: 1px solid white; background: #809C43;}
+    nav a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+
+.TopFaixa{float:left; width: 100%; height: 80px; background: #2A4F39;}
+
+.Logomarca{position: absolute; z-index:5; top: 17px; left: 20px;}
+    .Logomarca img{max-height: 50px;}
+
+.BotaoMobile{position: absolute; width: 30%; top: 15px; right: 0; text-align: center;}
+    .BotaoMobile img{cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 10px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{position: absolute; top: 40px; right: 5%; width: 65%; z-index:2; font-size: 17px; font-weight: bold;}
+    nav li {float: left; width: 16.66666%; text-align: center;}
+    nav a{color: #FFF; display: block;}
+
+.TopFaixa{display:none;}
+    nav li:hover{border-bottom: 4px solid #42B574; padding-bottom: 10px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+
+.BotaoMobile{display: none;}
+
+.DivCompleto{float: left; line-height: 35px; width: 100%; text-align: justify; margin: 30px 0; }
+    .DivCompleto img{max-width: 100%;}
+
+.Logomarca{position:absolute; top: 15px; left: 50px; z-index: 2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 10px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{position: absolute; top: 40px; right: 5%; width: 60%; z-index:2; font-size: 17px; font-weight: bold;}
+    nav li {float: left; width: 16.66666%; text-align: center;}
+    nav a{color: #FFF; display: block;}
+
+.TopFaixa{display:none;}
+    nav li:hover{border-bottom: 4px solid #42B574; padding-bottom: 10px; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+
+.BotaoMobile{display: none;}
+
+.DivCompleto{float: left; line-height: 35px; width: 100%; text-align: justify; margin: 30px 0; }
+    .DivCompleto img{max-width: 100%;}
+
+.Logomarca{position:absolute;  top: 20px; left: 90px; z-index: 2;}

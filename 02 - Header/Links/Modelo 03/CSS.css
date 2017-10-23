@@ -1,0 +1,126 @@
+/*Extra-Small Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 20px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{float:left; width: 100%; display:none; font-weight: bold;}
+    nav li {float: left; width: 100%; border-bottom: 1px solid white; background: #6EA35C;}
+    nav a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+
+.TopFaixa{float:left; width: 100%; height: 60px; margin-bottom: 25px;}
+
+.BotaoMobile{position: absolute; width: 30%; top: 20px; right: 0; text-align: center;}
+    .BotaoMobile img{cursor: pointer;}
+
+.Logomarca{position: absolute; z-index:5; width: 100%; top: 90px; text-align: center;}
+    .Logomarca img{max-width: 220px;}
+
+.RedesSociais{position: absolute; top: 6px; left: 3%; width: 70%; height: 60px; padding: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 20px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{float:left; width: 100%; display:none; font-weight: bold;}
+    nav li {float: left; width: 100%; border-bottom: 1px solid white; background: #6EA35C;}
+    nav a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+
+.TopFaixa{float:left; width: 100%; height: 60px; margin-bottom: 25px;}
+
+.BotaoMobile{position: absolute; width: 30%; top: 20px; right: 0; text-align: center;}
+    .BotaoMobile img{cursor: pointer;}
+
+.Logomarca{position: absolute; z-index:5; width: 100%; top: 90px; text-align: center;}
+    .Logomarca img{max-width: 220px;}
+
+.RedesSociais{position: absolute; top: 6px; left: 3%; width: 70%; height: 60px; padding: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 20px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{position: absolute; width: 50%; height: 70px; top: 0; right:0; z-index:2; font-size: 16px;}
+    nav li {float: left; width: 20%; text-align: center;}
+    nav a{color: #666; display: block; padding: 25px 5%;}
+
+.TopFaixa{float:left; width: 100%; height: 70px; margin-bottom: 1px;}
+    nav li:hover{height: 70px; background: #6EA35C; -webkit-transition: all 0.7s ease; -moz-transition: all 0.7s ease; -o-transition: all 0.7s ease; transition: all 0.7s ease;}
+    nav li:hover a{color: #fff; font-weight: bold;}
+
+.BotaoMobile{display: none;}
+
+.Logomarca{position: absolute; z-index:5; width: 35%; top: 90px; left: 30%; text-align: center;}
+    .Logomarca img{max-width: 270px;}
+
+.RedesSociais{position: absolute; top: 0; left: 3%; width: 30%; height: 70px; padding: 15px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+header{float:left; width: 100%;}
+
+main{float: left; width: 100%; margin: 20px 0 50px 0;}
+    main > div{padding: 0 5%;}
+
+nav{position: absolute; width: 40%; height: 70px; top: 0; right:0; z-index:2; font-size: 16px;}
+    nav li {float: left; width: 20%; text-align: center;}
+    nav a{color: #666; display: block; padding: 25px 5%;}
+    nav li:hover{ height: 70px; background: #6EA35C; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; transition: all 0.8s ease;}
+    nav li:hover a{color: #FFF; font-weight: bold;}
+
+.BotaoMobile{display: none;}
+
+.RedesSociais{position: absolute; top: 0; left: 3%; width: 30%; height: 70px; padding: 15px;}
+
+.TopFaixa{float:left; width: 100%; height: 70px; margin-bottom: 1px;}
+
+.Logomarca{position: absolute; z-index:5; width: 30%; top: 110px; left: 35%; text-align: center;}
+    .Logomarca img{max-width: 300px;}

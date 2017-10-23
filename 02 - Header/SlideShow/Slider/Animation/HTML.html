@@ -1,0 +1,53 @@
+<!--Inserir no Header.php-->
+<link rel="stylesheet" type="text/css" href="<?php echo DIRJS.'Slick-1-5-9/slick/slick.css'; ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo DIRJS.'Slick-1-5-9/slick/slick-theme.css'; ?>">
+<script src="<?php echo DIRJS.'Slick-1-5-9/slick/slick.min.js'; ?>"></script>
+<script src="<?php echo DIRJS.'ScrollReveal/dist/scrollreveal.min.js'; ?>"></script>
+
+
+
+
+
+<!--Inserir na div Header-->
+<div class="Slides">
+    <div>
+        <picture>
+            <source media="(max-width: 480px)" srcset="<?php echo DIRPAGINAS.'Slide-XS-01.jpg'; ?>">
+            <source media="(min-width: 481px) and (max-width: 768px)" srcset="<?php echo DIRPAGINAS.'Slide-S-01.jpg'; ?>">
+            <source media="(min-width: 769px) and (max-width: 1199px)" srcset="<?php echo DIRPAGINAS.'Slide-M-01.jpg'; ?>">
+            <source media="(min-width: 1200px)" srcset="<?php echo DIRPAGINAS.'Slide-L-01.jpg'; ?>">
+            <img src="<?php echo DIRPAGINAS.'Slide-S-01.jpg'; ?>" alt="Certificação Digital">
+        </picture>
+        <div class="SlidesTitulo">Plantas Ornamentais</div>
+        <div class="SlidesTexto">Plantas e mudas que irão deixar qualquer ambiente mais bonito.</div>
+        <a href="<?php echo $DirPaginas.'Servicos'; ?>"><div class="SlidesBotao">Saiba Mais</div></a>
+    </div>
+
+
+    <div>
+        <picture>
+            <source media="(max-width: 480px)" srcset="<?php echo DIRPAGINAS.'Slide-XS-02.jpg'; ?>">
+            <source media="(min-width: 481px) and (max-width: 768px)" srcset="<?php echo DIRPAGINAS.'Slide-S-02.jpg'; ?>">
+            <source media="(min-width: 769px) and (max-width: 1199px)" srcset="<?php echo DIRPAGINAS.'Slide-M-02.jpg'; ?>">
+            <source media="(min-width: 1200px)" srcset="<?php echo DIRPAGINAS.'Slide-L-02.jpg'; ?>">
+            <img src="<?php echo DIRPAGINAS.'Slide-S-02.jpg'; ?>" alt="Smart-cards">
+        </picture>
+        <div class="SlidesTitulo">Adubos</div>
+        <div class="SlidesTexto">O que há de melhor em fertilização para seu solo produzir muito mais.</div>
+        <a href="<?php echo $DirPaginas.'Servicos'; ?>"><div class="SlidesBotao">Saiba Mais</div></a>
+    </div>
+
+
+    <div>
+        <picture>
+            <source media="(max-width: 480px)" srcset="<?php echo DIRPAGINAS.'Slide-XS-03.jpg'; ?>">
+            <source media="(min-width: 481px) and (max-width: 768px)" srcset="<?php echo DIRPAGINAS.'Slide-S-03.jpg'; ?>">
+            <source media="(min-width: 769px) and (max-width: 1199px)" srcset="<?php echo DIRPAGINAS.'Slide-M-03.jpg'; ?>">
+            <source media="(min-width: 1200px)" srcset="<?php echo DIRPAGINAS.'Slide-L-03.jpg'; ?>">
+            <img src="<?php echo DIRPAGINAS.'Slide-S-03.jpg'; ?>" alt="Tokens">
+        </picture>
+        <div class="SlidesTitulo">Artesanato</div>
+        <div class="SlidesTexto">Complemente seu ambiente com belas peças de arte.</div>
+        <a href="<?php echo DIRPAGINAS.'Servicos'; ?>"><div class="SlidesBotao">Saiba Mais</div></a>
+    </div>
+</div>

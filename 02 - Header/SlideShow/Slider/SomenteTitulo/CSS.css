@@ -1,0 +1,67 @@
+/*Extra-Small Devices*/
+.Slides{float: left; width: 100%; height: 270px;}
+    .Slides img{width: 100%; height: 270px;}
+    .Slides .slick-dots{visibility: hidden;}
+    .SlidesTexto{position: absolute; font-size: 25px; font-weight: bold; width: 100%; top: 220px; text-align: center; color: #FFF; text-shadow: #000 2px 3px 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Small Devices*/
+.Slides{float: left; width: 100%; height: 330px;}
+    .Slides img{width: 100%; height: 330px;}
+    .Slides .slick-dots{text-align: left; padding-left: 20px;}
+    .SlidesTexto{position: absolute; padding: 10px; font-size: 30px; font-weight: bold; top: 260px; right: 10px; text-align: right; color: #FFF; text-shadow: #000 2px 3px 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+.Slides{float: left; width: 100%; height: 450px;}
+    .Slides img{width: 100%; height: 450px;}
+    .SlidesTexto{position: absolute; padding: 10px; font-size: 38px; font-weight: bold; top: 180px; right: 20px; text-align: right; color: #FFF; text-shadow: #000 2px 3px 2px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+.Slides{float: left; width: 100%; height: 550px; }
+    .Slides img{width: 100%; height: 550px;}
+    .SlidesTexto{position: absolute; padding: 10px; font-size: 44px; font-weight: bold; top: 220px; right: 50px; text-align: right; color: #FFF; text-shadow: #000 2px 3px 2px;}
+
+
+
+
+
+
+

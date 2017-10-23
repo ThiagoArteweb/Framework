@@ -1,0 +1,59 @@
+/*Extra-Small Devices*/
+.NavRestrito{position: relative; float:left; width: 100%; display:none; font-weight: bold;}
+    .NavRestrito li {float: left; width: 100%; border-bottom: 1px solid white; background: #52658D;}
+    .NavRestrito li:last-child {border-bottom: none;}
+    .NavRestrito a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+    .NavRestritoLink #NavRestritoLinkAPrimeiro{display: none; }
+    .NavRestritoSublink li{float: left; width: 100%;}
+    .NavRestritoSublink li a{color: #FFF !important;}
+
+
+
+
+/*Small Devices*/
+.NavRestrito{position: relative; float:left; width: 100%; display:none; font-weight: bold;}
+    .NavRestrito li {float: left; width: 100%; border-bottom: 1px solid white; background: #52658D;}
+    .NavRestrito li:last-child {border-bottom: none;}
+    .NavRestrito a{color: #FFFFFF; display: block; height: 60px; padding-top: 20px; padding-left: 10%;}
+    .NavRestritoLink #NavRestritoLinkAPrimeiro{display: none; }
+    .NavRestritoSublink li{float: left; width: 100%;}
+    .NavRestritoSublink li a{color: #FFF !important;}
+
+
+
+
+
+/*Medium Devices*/
+.NavRestrito{position: absolute; top: 0; right: 0; width: 60%;  z-index:2; font-size: 17px; font-weight: bold;}
+    .NavRestrito li {float: left; width: 25%; text-align: center;}
+    .NavRestrito a{color: #FFF; display: block; padding: 20px 0;}
+    .NavRestrito li:hover a{color:#8596B8; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+    .NavRestritoLink:hover .NavRestritoSublink li{display: block; }
+    .NavRestritoSublink li{display: none; float: left; width: 100%;  background: #333;}
+    .NavRestritoSublink li a{color: #FFF !important;}
+    .NavRestritoSublink li:hover a{color: #8596B8 !important; background: #444; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+
+
+
+
+
+
+
+
+
+
+
+/*Large Devices*/
+.NavRestrito{position: absolute; top: 0; right: 0; width: 60%;  z-index:2; font-size: 17px; font-weight: bold;}
+    .NavRestrito li {float: left; width: 25%; text-align: center;}
+    .NavRestrito a{color: #FFF; display: block; padding: 20px 0;}
+    .NavRestrito li:hover a{color:#8596B8; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+    .NavRestritoLink:hover .NavRestritoSublink li{display: block; }
+    .NavRestritoSublink li{display: none; float: left; width: 100%;  background: #333;}
+    .NavRestritoSublink li a{color: #FFF !important;}
+    .NavRestritoSublink li:hover a{color: #8596B8 !important; background: #444; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease;}
+
+
+
+
+

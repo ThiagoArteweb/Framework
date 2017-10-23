@@ -1,0 +1,58 @@
+/*Extra-Small Devices*/
+.Slides{float: left; width: 100%; height: 350px;}
+    .Slides img{width: 100%; height: 350px;}
+    .Slides .slick-dots{visibility: hidden;}
+    .SlidesRetangulo{position:absolute; width: 100%; height: 60px; top: 290px; right: 0; font-weight: normal; color: white; background: rgba(0,0,0,.5); }
+    .SlidesRetanguloTexto{float:left; width: 100%; height: 100%; padding: 10px 3%; z-index: 200; text-align: center;}
+    .SlidesRetanguloTexto h1{font-size: 25px; margin: 2px 0; color: #F47936;}
+    .SlideRetanguloTextoConteudo{display:none;}
+
+.SlideDireito{float:left; width: 100%;text-align: center;}
+    .SlideDireito img{width: 90%; margin-bottom: 22px;}
+
+
+
+
+
+/*Small Devices*/
+.Slides{float: left; width: 100%; height: 350px;}
+    .Slides img{width: 100%; height: 350px;}
+    .Slides .slick-dots{visibility: hidden;}
+    .SlidesRetangulo{position:absolute; width: 100%; height: 100px; top: 250px; right: 0; font-weight: normal; color: white; background: rgba(0,0,0,.5); }
+    .SlidesRetanguloTexto{float:left; width: 100%; height: 100%; padding: 5px 3%; z-index: 200;}
+    .SlidesRetanguloTexto h1{font-size: 25px; margin: 2px 0; color: #F47936;}
+
+.SlideDireito{float:left; width: 100%; margin: 10px 0; text-align: center;}
+    .SlideDireito img{max-width: 100%; margin-bottom: 22px;}
+
+
+
+
+
+
+/*Medium Devices*/
+.Slides{float: left; width: 50%; height: 300px; margin: 20px 0 20px 5%;}
+    .Slides img{width: 100%; height: 300px; border-radius: 10px;}
+    .Slides .slick-dots{visibility: hidden;}
+    .SlidesRetangulo{position:absolute; width: 100%; height: 130px; top: 190px; left: 0; font-weight: normal; color: white; background: rgba(0,0,0,.5); border-radius: 10px;}
+    .SlidesRetanguloTexto{float:left; width: 100%; height: 100%; padding: 10px 3%; z-index: 200;}
+    .SlidesRetanguloTexto h1{font-size: 25px; margin: 2px 0; color: #F47936;}
+
+.SlideDireito{float:left; width: 40%; margin: 20px 2.5%; text-align: center;}
+    .SlideDireito img{max-width: 100%; margin-bottom: 22px;}
+
+
+
+
+
+
+/*Large Devices*/
+.Slides{float: left; width: 55%; margin: 20px 0 20px 5%; height: 350px;}
+    .Slides img{width: 100%; height: 350px;  border-radius: 10px;}
+    .Slides .slick-dots{visibility: hidden;}
+    .SlidesRetangulo{position:absolute; width: 100%; height: 120px; top: 230px; left: 0; font-weight: normal; color: white; background: rgba(0,0,0,.5);  border-radius: 10px;}
+    .SlidesRetanguloTexto{float:left; width: 100%; height: 100%; padding: 10px 3%; z-index: 200;}
+    .SlidesRetanguloTexto h1{font-size: 30px; margin: 5px 0; color: #F47936;}
+
+.SlideDireito{float:left; width: 35%; margin: 20px 2.5%; text-align: center;}
+    .SlideDireito img{max-width: 100%; margin-bottom: 47px;}
