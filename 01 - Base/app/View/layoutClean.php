@@ -72,9 +72,9 @@
 
 
 <footer>
-    <?php echo $this->addFooter(); ?>
     <script><?php echo file_get_contents(DIRJS.'jQuery.js'); #Versão 3.2.1 ?></script>
     <script><?php echo file_get_contents(DIRJS.'javascript.min.js'); ?></script>
+    <?php echo $this->addFooter(); ?>
 </footer>
 
 </body>
