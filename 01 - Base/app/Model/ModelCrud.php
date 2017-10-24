@@ -1,7 +1,7 @@
 <?php
 namespace App\Model;
 
-class ModelCrud extends ModelConexao{
+abstract class ModelCrud extends ModelConexao{
 
 
 	#Atributos
