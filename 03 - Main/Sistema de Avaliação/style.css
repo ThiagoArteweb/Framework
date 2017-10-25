@@ -1,0 +1,4 @@
+.estrelas{position:absolute; top: 200px; left: 100px;}
+    .estrelas div{float:right; cursor: pointer;}
+    .estrelas div:hover ~ div svg, .estrelas div:hover svg{fill:#FAC917;}
+    .estrelas svg{width: 30px; height: 30px; fill:#CCC;}
