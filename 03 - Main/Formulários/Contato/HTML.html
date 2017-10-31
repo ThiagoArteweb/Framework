@@ -1,0 +1,47 @@
+// Incluir no Header.php
+<script src="<?php echo '{$DirPaginas}Libraries/JS/Maskedinput.js'); ?>"></script>
+
+
+
+
+<article class="Contato">
+    <div class="ContatoEsquerda">
+        <form id="FormContato" name="FormContato" method="post" action="<?php echo $DirPaginas.'PastaControllers/ControllerContato'; ?>">
+            <div class='Formulario'>
+                <input name='Nome' id='Nome' type='text' placeholder="Nome completo:" required>
+            </div>
+
+
+            <div class='Formulario'>
+                <input name='Email' id='Email' type='email' placeholder="Email:" required><br>
+            </div>
+
+
+            <div class='Formulario'>
+                <input name='Telefone' id='Telefone' type='tel' placeholder="Telefone:" required>
+            </div>
+
+
+            <div class='Formulario'>
+                <textarea name='Mensagem' id='Mensagem' required></textarea>
+            </div>
+
+
+            <div class='Formulario'>
+                <input type="submit" value="Enviar" id="Botao" name="Botao">
+            </div>
+        </form>
+    </div>
+
+
+
+    <div class="ContatoDireita">
+        <img src="<?php echo $DirPaginas.'Images/Endereco-Truesoft-em-Joao-Pessoa.png'; ?>" alt="Endereço da Truesoft em João Pessoa" title="Endereço da Truesoft em João Pessoa"> Av. Rio Grande do Sul, 386 - B. dos Estados - João Pessoa/PB <br>
+        <img src="<?php echo $DirPaginas.'Images/WhatsApp-TrueSoft-Sistemas.png'; ?>" alt="WhatsApp da Truesoft Sistemas" title="WhatsApp da Truesoft Sistemas"> (83) 9 8889-7051 <br>
+        <img src="<?php echo $DirPaginas.'Images/Telefone-de-empresa-de-software-na-paraiba.png'; ?>" alt="TrueSoft | Telefone de empresa de software na Paraíba" title="TrueSoft | Telefone de empresa de software na Paraíba"> (83) 3512-5825 <br>
+        <img src="<?php echo $DirPaginas.'Images/Email-de-empresa-que-faz-programa-em-joao-pessoa.png'; ?>" alt="Truesoft | Email de empresa que faz programa" title="Truesoft | Email de empresa que faz programa"> vendas01@truesoft.com.br
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.062355005071!2d-34.865977286071!3d-7.118772771784996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace7fe51a0217d%3A0x83c310ed5d6c8270!2sTruesoft+Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1497631387491"  frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+</article>
+
+

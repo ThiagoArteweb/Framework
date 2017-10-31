@@ -1,0 +1,69 @@
+/*Extra-Small Devices*/
+.Contato{display: flex; flex-flow: row wrap;}
+    .ContatoEsquerda{float:left; width: 100%; margin: 30px 0 0 0; order: 2;}
+    .ContatoDireita{float:left; font-size: 17px; width: 100%; order: 1; margin: 30px 0 0 0; line-height: 40px;}
+    .ContatoDireita iframe{width: 100%; height: 190px; margin: 30px 0 0 0;}
+    .ContatoDireita img{vertical-align: middle;}
+
+.Formulario{float: left; width: 100%; margin: 10px 0; text-align: left;}
+    .Formulario input {width: 100%; height: 50px; padding: 5px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; color:#666;  border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario textarea {width: 100%; height: 200px; padding: 10px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; color:#666; border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario input[type='submit'],input[type='button']{width: 80%; height: 50px; margin: 0 10%; cursor: pointer; background: #D65E26; color: #FFF; font-weight: bold; font-size: 17px; text-align: center; }
+    .Formulario input[type='submit']:hover,input[type='button']:hover{opacity: 0.7;}
+
+
+
+
+
+/*Small Devices*/
+.Contato{}
+    .ContatoEsquerda{float:left; width: 50%; padding-right: 3%!important; margin: 30px 0 0 0;}
+    .ContatoDireita{float:left; font-size: 17px; width: 50%; padding-left: 3%!important; margin: 30px 0 0 0; line-height: 40px;}
+    .ContatoDireita iframe{width: 100%; height: 190px; margin: 30px 0 0 0;}
+    .ContatoDireita img{vertical-align: middle;}
+
+.Formulario{float: left; width: 100%; margin: 10px 0; text-align: left;}
+    .Formulario input {width: 100%; height: 50px; padding: 5px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; color:#666;  border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario textarea {width: 100%; height: 200px; padding: 10px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; color:#666; border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario input[type='submit'],input[type='button']{width: 80%; height: 50px; margin: 0 10%; cursor: pointer; background: #D65E26; color: #FFF; font-weight: bold; font-size: 17px; text-align: center; }
+    .Formulario input[type='submit']:hover,input[type='button']:hover{opacity: 0.7;}
+
+
+
+
+
+
+
+
+
+/*Medium Devices*/
+.Contato{}
+    .ContatoEsquerda{float:left; width: 50%; padding-right: 3%!important; margin: 30px 0 0 0;}
+    .ContatoDireita{float:left; font-size: 17px; width: 50%; padding-left: 3%!important; margin: 30px 0 0 0; line-height: 40px;}
+    .ContatoDireita iframe{width: 100%; height: 190px; margin: 30px 0 0 0;}
+    .ContatoDireita img{vertical-align: middle;}
+
+.Formulario{float: left; width: 100%; margin: 10px 0; text-align: left;}
+    .Formulario input {width: 100%; height: 50px; padding: 5px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; color:#666;  border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario textarea {width: 100%; height: 200px; padding: 10px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; color:#666; border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario input[type='submit'],input[type='button']{width: 50%; height: 50px; margin: 0 25%; cursor: pointer; background: #D65E26; color: #FFF; font-weight: bold; font-size: 17px; text-align: center; }
+    .Formulario input[type='submit']:hover,input[type='button']:hover{opacity: 0.7;}
+
+
+
+
+
+
+
+/*Large Devices*/
+.Contato{}
+    .ContatoEsquerda{float:left; width: 50%; padding-right: 3%!important; margin: 30px 0 0 0;}
+    .ContatoDireita{float:left; width: 50%; padding-left: 3%!important; margin: 30px 0 0 0; line-height: 40px;}
+    .ContatoDireita iframe{width: 100%; height: 230px; margin: 30px 0 0 0;}
+    .ContatoDireita img{vertical-align: middle;}
+
+.Formulario{float: left; width: 100%; margin: 10px 0; text-align: left;}
+    .Formulario input {width: 100%; height: 50px; padding: 5px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; color:#666;  border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario textarea {width: 100%; height: 200px; padding: 10px 5px 5px 10px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 20px; color:#666; border-radius: 5px; border: 0; box-shadow: 0 5px 20px #CCC;}
+    .Formulario input[type='submit'],input[type='button']{width: 40%; height: 50px; margin: 0 30%; cursor: pointer; background: #D65E26; color: #FFF; font-weight: bold; font-size: 17px; text-align: center; }
+    .Formulario input[type='submit']:hover,input[type='button']:hover{opacity: 0.7;}
