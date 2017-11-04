@@ -1,0 +1,2 @@
+.PesquisaEsquerda{float:left; width: 20%; height: 160px; overflow: hidden;}
+.PesquisaEsquerda img{position: relative; top: 50%; transform: translateY(-50%); max-height: 160px;}
